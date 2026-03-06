@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-shield"
+version = "1.0.0"
+description = "Real-time prompt injection detection and prevention for LLM applications — FastAPI, Flask, and standalone"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["prompt-injection", "llm-security", "ai-security", "fastapi", "middleware", "nlp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []  # zero mandatory dependencies — stdlib only
+
+[project.optional-dependencies]
+fastapi = ["fastapi>=0.100", "starlette>=0.27"]
+flask = ["flask>=2.3"]
+dev = ["pytest>=7", "fastapi>=0.100", "flask>=2.3", "httpx>=0.24"]
+
+[project.urls]
+Homepage = "https://github.com/alikesk222/prompt-shield"
+Repository = "https://github.com/alikesk222/prompt-shield"
+Issues = "https://github.com/alikesk222/prompt-shield/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["promptshield*"]
