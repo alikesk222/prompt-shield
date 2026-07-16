@@ -4,7 +4,7 @@
 > Zero dependencies. One line to integrate.
 
 [![CI](https://github.com/alikesk222/prompt-shield/actions/workflows/ci.yml/badge.svg)](https://github.com/alikesk222/prompt-shield/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/prompt-shield.svg)](https://pypi.org/project/prompt-shield/)
+[![PyPI](https://img.shields.io/pypi/v/prompt-injection-shield.svg)](https://pypi.org/project/prompt-injection-shield/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-zero-brightgreen?style=flat-square)](#)
@@ -17,7 +17,7 @@
 ## Install
 
 ```bash
-pip install prompt-shield
+pip install prompt-injection-shield
 ```
 
 ---
@@ -255,7 +255,7 @@ Zero external dependencies — runs anywhere Python runs.
 | **Purpose** | Defensive — protect your app | Offensive — test your app |
 | **Use in production** | Yes | No (pen-testing only) |
 | **Integration** | Library / middleware | CLI tool |
-| **Install** | `pip install prompt-shield` | `pip install llm-prompt-injector` |
+| **Install** | `pip install prompt-injection-shield` | `pip install llm-prompt-injector` |
 
 Use **llm-prompt-injector** to find vulnerabilities. Use **prompt-shield** to fix them.
 
