@@ -3,6 +3,8 @@
 > Real-time **prompt injection detection and prevention** for LLM applications.
 > Zero dependencies. One line to integrate.
 
+[![CI](https://github.com/alikesk222/prompt-shield/actions/workflows/ci.yml/badge.svg)](https://github.com/alikesk222/prompt-shield/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/prompt-shield.svg)](https://pypi.org/project/prompt-shield/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-zero-brightgreen?style=flat-square)](#)

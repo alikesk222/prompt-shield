@@ -37,3 +37,6 @@ Issues = "https://github.com/alikesk222/prompt-shield/issues"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["promptshield*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
